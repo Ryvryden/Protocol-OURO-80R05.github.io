@@ -7,4 +7,6 @@ h1{
   text-align: center;
   color: rgb(34,179,201);
 }
-h2{}
+h2{
+  color: green;
+}
