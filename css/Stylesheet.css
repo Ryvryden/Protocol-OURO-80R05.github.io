@@ -1,12 +1,57 @@
-html{
-  background-image: url(../images/stock.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;  
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#150202, #150202, #3b0404, #6a0606);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
 }
-h1{
-  text-align: center;
-  color: rgb(34,179,201);
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    color: #ffffff;
 }
-h2{
-  color: green;
+
+h1.header.item {
+    background: #150202;
+    font-size: 70px;
+    padding-left: 37px;
+    padding-top: 27px;
+}
+
+h1.header.item>a,
+.ui.fluid.inverted.vertical.tabular.menu>a {
+    font-family: 'Courier New', Courier, monospace;
+    color: #6a0606;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+}
+
+.ui.fluid.inverted.vertical.tabular.menu {
+    background-color: #150202;
+    border-color: #6a0606;
+}
+
+.ui.fluid.inverted.vertical.tabular.menu>a.active.item,
+.ui.right.attached.segment {
+    background-color: #3b0404;
+    border-color: #6a0606;
+    border-left:#6a0606;
+}
+
+.ui.fluid.inverted.vertical.tabular.menu>a {
+    font-size: 25px;
+    font-weight: bold;
+    color: #ff4848;
 }
