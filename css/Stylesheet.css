@@ -55,3 +55,7 @@ h6 {
     font-weight: bold;
     color: #ff4848;
 }
+
+hr {
+  border: 1px solid #6a0606;
+}
